@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single page apps</title>
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <style>
+        .link-card {
+            transition: all 0.2s;
+            text-decoration: underline;
+        }
+
+        .link-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex justify-center items-center h-screen">
+        <div class="flex flex-col items-center">
+            <a href="mudras/index.html" class="text-xl font-semibold mb-2 link-card p-4 rounded-lg hover:bg-blue-100">
+
+                Hand mudras
+            </a>
+            <p class="text-gray-600 text-center mb-4">
+                Description of Page 1
+            </p>
+            <a href="time-track/index.html"
+                class="text-xl font-semibold mb-2 link-card p-4 rounded-lg hover:bg-blue-100">
+                Time track
+            </a>
+            <p class="text-gray-600 text-center mb-4">
+                TimeTrack - Master the Momentum of Time!
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
